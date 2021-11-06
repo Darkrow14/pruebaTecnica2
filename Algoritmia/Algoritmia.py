@@ -11,6 +11,8 @@ def canSplit(matrix):
                 print(f'L:{f[:column+1]}', end=',')
                 print(f'R:{f[column+1:]}')
                 right += sum(f[column+1:])
+            else:
+                return 0
         print(f'Left:{left} Right:{right}')
         if left == right:
             return 1
