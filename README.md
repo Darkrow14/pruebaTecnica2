@@ -1,5 +1,5 @@
 # Dependencias
-Para poder ejecutar adecuadamente cada uno de los puntos es necesario instalar los modulos usados, para ello usar el siguiente comando:
+Para poder ejecutar adecuadamente cada uno de los puntos es necesario instalar los modulos usados, para ello usar el siguiente comando en la carpeta raiz:
 ```
 pip install -r requirements.txt    
 ```
