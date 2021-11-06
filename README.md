@@ -12,7 +12,7 @@ pytest -v   #-v agrega mas verbosidad a lo que se mostrara de la prueba
 ```
 De esta forma se ejecutaran las pruebas que se encuentran en el archivo test_algoritmia.py 
 ## Manejo de Python
-Para la parte de manejo de Python simplemente se ejecuta el siguiente comando, estando ubicado en la carpeta manejo:
+Estando ubicado en la carpeta Manejo usar el siguiente comando:
 ```
 python main.py
 ```
