@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <h1>FUT's players</h1>
+        <ul>
+            {%for p in data: %}
+            <li>
+                <a href="/{{p['id']}}">
+                    {{p['name']}} {{p['id']}}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
