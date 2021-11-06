@@ -4,6 +4,9 @@ from Algoritmia import canSplit
 
 @pytest.mark.parametrize(
     "matriz, expected",
+    # Casos de prueba
+    # es una lista de tuplas, donde cada tupla es una prueba que se hara
+    # dicha tupla tiene el siguiente formato (matriz, resultado esperado)
     [
         ([[1,1],[1,1]],1),
         ([[2,2,4],[2,2,4],[2,2,4]],1),
